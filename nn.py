@@ -390,5 +390,3 @@ def as_scalar(node):
         "Node has shape {}, cannot convert to a scalar".format(
             format_shape(node.data.shape)))
     return x.item(node.data)
-
-## testing for git
